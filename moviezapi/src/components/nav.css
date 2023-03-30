@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar{
+    display: flex;
+    background: url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg);
+    justify-content:space-between;
+    padding: 20px;
+    align-items: center;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.navbar span a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(216, 232, 72);
+    transition: 0.5s;
+}
+.navbar span a:hover{
+    font-size: 31px;
+}
+
+
+.navbar section{
+    color: white;
+    font-size: 20px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style:none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+    font-size: 17px;
+}

@@ -1,0 +1,30 @@
+.listitem{
+    text-decoration: none;
+    width: 200px;
+    background: white;
+    box-shadow: 0 0 4px 4px rgb(81, 81, 89);
+    margin: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.listitem img{
+    width: 200px;
+    transition: 0.3s;
+}
+
+.listitem img:hover{
+    width: 205px;
+}
+
+.listitem .listiteminfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listitem .showname{
+    font-size: 20px;
+    color: rgb(16, 231, 16);
+    text-shadow:1px 1px rgb(28, 0, 128);
+}

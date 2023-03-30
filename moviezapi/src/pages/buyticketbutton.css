@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.buyticket{
+    border: 1px solid green;
+    height: 100%;
+    width: 200px;
+    font-size: 20px;
+}

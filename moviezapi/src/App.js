@@ -5,6 +5,7 @@ import About from './pages/about';
 import Homepage from './pages/homepage';
 import Singlepage from './pages/singlepage';
 import ShowsState from './context/shows/showsState';
+import Buyticket from './pages/buyticket';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
       <div className='block'>
         <Switch>
             <Route exact path='/' component={Homepage}/>
-            <Route exact path='/about' component={About}/>
             <Route exact path="/singleshow/:id" component={Singlepage}/>
+            <Route exact path="/buyticket/:id" component={Buyticket}/>
         </Switch>
       </div>
     </Router>

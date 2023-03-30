@@ -4,6 +4,7 @@ import "./singlepage.css";
 
 //context
 import ShowsContext from '../context/shows/showsContext';
+import Buybutton from './buyticketbutton';
 
 const Singlepage = ({match}) => {
   const {getsingleshow,singleshow,loading}=useContext(ShowsContext);
@@ -31,6 +32,7 @@ const Singlepage = ({match}) => {
       {loading ? <h2>loading...</h2>:
       <div className='singleshow'>
         <img src={singleshow.image ? singleshow.image.medium : "https://images.wondershare.com/pdfelement/forms-templates/medium/movie-poster-template-3.png"} alt={singleshow.name}/>
+        
         <div className='singlshowinfo'>
           <h1>
             {singleshow.name}
@@ -50,6 +52,7 @@ const Singlepage = ({match}) => {
           <p className='summary'>
             {singleshow.summary && removeTags(singleshow.summary)}
           </p>
+          <Buybutton className="button"/>
         </div>
       </div>
       }

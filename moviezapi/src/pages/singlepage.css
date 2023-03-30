@@ -10,14 +10,14 @@
 }
 
 .singleshow img{
-    width: 300px;
+    width: 200px;
+    height: 300px;
 }
 
 .singleshow .singlshowinfo{
     margin-left: 20px;
     border: 0.2px solid black;
     box-shadow: 3px 3px 0px 0px gray;
-    height: 100%;
 }
 
 .singleshow .singlshowinfo p{
@@ -26,4 +26,14 @@
 
 .singleshow .singlshowinfo .summary{
     max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.singleshow .singlshowinfo .buyticket{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 5px;
 }

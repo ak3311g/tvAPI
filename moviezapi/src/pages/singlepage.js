@@ -52,7 +52,7 @@ const Singlepage = ({match}) => {
           <p className='summary'>
             {singleshow.summary && removeTags(singleshow.summary)}
           </p>
-          <Buybutton className="button"/>
+          <Buybutton/>
         </div>
       </div>
       }

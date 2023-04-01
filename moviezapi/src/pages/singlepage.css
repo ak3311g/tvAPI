@@ -33,7 +33,19 @@
     text-decoration: none;
     margin-left: 20px;
     color: black;
+}
+
+.singleshow .singlshowinfo a span{
+    font-size: 20px;
     background-color: green;
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding: 0 10px;
+    transition: 0.5s;
+}
+
+.singleshow .singlshowinfo a span:hover{
+    font-size: 21px;
+    background-color: rgb(2, 0, 128);
+    color: white;
 }

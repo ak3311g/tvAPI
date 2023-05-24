@@ -2,7 +2,7 @@
 
 This is a tvAPI site where you can find any movie details and going to add a ticket booking function also 
 
-here are some images of this site
+here are some images of this site this site work on http protocol only but if you try to run it on https it wont work because it blocks the TVAPI that works on http protocol only ;-;
 
 ![p2](https://user-images.githubusercontent.com/49281815/230403646-f76df9a7-efc9-4342-a5d1-d7acb8a27c23.png)
 ![p1](https://user-images.githubusercontent.com/49281815/230403673-0b50c0ea-83e4-4405-bd45-1545b0c8a830.png)
